@@ -13,10 +13,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import me.abir.retrofitrealm.adapter.SitesAdapter;
+import me.abir.retrofitrealm.stack_overflow_example.adapter.SitesAdapter;
 import me.abir.retrofitrealm.databinding.ActivityMainBinding;
-import me.abir.retrofitrealm.model.SiteItem;
-import me.abir.retrofitrealm.rest.GetApiResponse;
+import me.abir.retrofitrealm.stack_overflow_example.model.SiteItem;
+import me.abir.retrofitrealm.stack_overflow_example.rest.GetApiResponse;
 
 public class MainActivity extends AppCompatActivity implements GetApiResponse.ApiResponseListener {
 

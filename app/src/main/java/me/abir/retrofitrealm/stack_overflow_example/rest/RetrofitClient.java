@@ -1,4 +1,4 @@
-package me.abir.retrofitrealm.rest;
+package me.abir.retrofitrealm.stack_overflow_example.rest;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

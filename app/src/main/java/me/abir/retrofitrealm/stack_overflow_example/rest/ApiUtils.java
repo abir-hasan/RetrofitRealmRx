@@ -1,4 +1,4 @@
-package me.abir.retrofitrealm.rest;
+package me.abir.retrofitrealm.stack_overflow_example.rest;
 
 /**
  * Created by Abir Hasan123 on 06-Jul-17.

@@ -1,4 +1,4 @@
-package me.abir.retrofitrealm.model;
+package me.abir.retrofitrealm.stack_overflow_example.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

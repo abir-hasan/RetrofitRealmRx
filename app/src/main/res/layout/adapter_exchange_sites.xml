@@ -7,7 +7,7 @@
 
         <variable
             name="siteItem"
-            type="me.abir.retrofitrealm.model.SiteItem" />
+            type="me.abir.retrofitrealm.stack_overflow_example.model.SiteItem" />
     </data>
 
     <android.support.constraint.ConstraintLayout

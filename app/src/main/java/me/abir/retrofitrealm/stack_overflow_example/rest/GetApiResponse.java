@@ -1,12 +1,12 @@
-package me.abir.retrofitrealm.rest;
+package me.abir.retrofitrealm.stack_overflow_example.rest;
 
 import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import me.abir.retrofitrealm.model.SiteItem;
-import me.abir.retrofitrealm.model.Sites;
+import me.abir.retrofitrealm.stack_overflow_example.model.SiteItem;
+import me.abir.retrofitrealm.stack_overflow_example.model.Sites;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

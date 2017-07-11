@@ -1,4 +1,4 @@
-package me.abir.retrofitrealm.model;
+package me.abir.retrofitrealm.stack_overflow_example.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

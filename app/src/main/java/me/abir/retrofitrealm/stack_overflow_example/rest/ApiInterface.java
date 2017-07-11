@@ -1,6 +1,6 @@
-package me.abir.retrofitrealm.rest;
+package me.abir.retrofitrealm.stack_overflow_example.rest;
 
-import me.abir.retrofitrealm.model.Sites;
+import me.abir.retrofitrealm.stack_overflow_example.model.Sites;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

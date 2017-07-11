@@ -1,8 +1,7 @@
-package me.abir.retrofitrealm.adapter;
+package me.abir.retrofitrealm.stack_overflow_example.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +11,7 @@ import java.util.List;
 
 import me.abir.retrofitrealm.R;
 import me.abir.retrofitrealm.databinding.AdapterExchangeSitesBinding;
-import me.abir.retrofitrealm.model.SiteItem;
+import me.abir.retrofitrealm.stack_overflow_example.model.SiteItem;
 
 /**
  * Created by Abir on 06-Jul-17.
