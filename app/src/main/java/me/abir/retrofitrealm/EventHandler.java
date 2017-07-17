@@ -1,4 +1,4 @@
-package me.abir.retrofitrealm.stack_overflow_example;
+package me.abir.retrofitrealm;
 
 import android.content.Intent;
 import android.databinding.BindingAdapter;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
+import me.abir.retrofitrealm.git_hub_example.view.GithubExampleActivity;
 import me.abir.retrofitrealm.stack_overflow_example.view.StackSitesActivity;
 
 /**
@@ -27,6 +28,11 @@ public class EventHandler {
     public void onHandleClick(View view, String value) {
         Log.d(TAG, "onHandleClick() called with: view = [" + view + "], value = [" + value + "]");
         view.getContext().startActivity(new Intent(view.getContext(), StackSitesActivity.class));
+    }
+
+    public void onGitHubButtonClick(View view) {
+        Log.d(TAG, "onGitHubButtonClick() called with: view = [" + view + "]");
+        view.getContext().startActivity(new Intent(view.getContext(), GithubExampleActivity.class));
     }
 
     @BindingAdapter({"imageUrl", "placeholder"})

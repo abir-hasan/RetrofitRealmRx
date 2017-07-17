@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import me.abir.retrofitrealm.databinding.ActivityMainBinding;
-import me.abir.retrofitrealm.stack_overflow_example.EventHandler;
 
 public class MainActivity extends AppCompatActivity {
 
