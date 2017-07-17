@@ -1,8 +1,13 @@
 package me.abir.retrofitrealm.stack_overflow_example;
 
 import android.content.Intent;
+import android.databinding.BindingAdapter;
+import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import me.abir.retrofitrealm.stack_overflow_example.view.StackSitesActivity;
 
@@ -22,5 +27,11 @@ public class EventHandler {
     public void onHandleClick(View view, String value) {
         Log.d(TAG, "onHandleClick() called with: view = [" + view + "], value = [" + value + "]");
         view.getContext().startActivity(new Intent(view.getContext(), StackSitesActivity.class));
+    }
+
+    @BindingAdapter({"imageUrl", "placeholder"})
+    public static void loadIcon(ImageView icon, String url, Drawable drawable) {
+        Log.w(TAG, "loadIcon() called with:url = [" + url + "]");
+        Picasso.with(icon.getContext()).load(url).placeholder(drawable).fit().into(icon);
     }
 }
