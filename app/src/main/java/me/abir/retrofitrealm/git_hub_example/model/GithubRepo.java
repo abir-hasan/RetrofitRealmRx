@@ -5,4 +5,13 @@ package me.abir.retrofitrealm.git_hub_example.model;
  */
 
 public class GithubRepo {
+    public String name;
+    public String owner;
+    public String url;
+    public String language;
+
+    @Override
+    public String toString() {
+        return (name + " " + url+" "+language);
+    }
 }
